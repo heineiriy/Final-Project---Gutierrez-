@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="logo.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about.css" />
+    <title>My Travel Website</title>
+  </head>
+  <body background="bgk.jpg">
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="home.html">MY Travel Website<span>.com</span></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="food.html">FOOD </a></li>
+          <li><a href="Places.html">PLACES</a></li>
+          <li><a href="act.html">ACTIVITIES</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="content">
+        <h1>About us</h1>
+        <h4>Thank you!</h4>
+            <h3>Again i am Henry T. Gutierrez see you 
+            again at my next blog, i appreciate you!!</h3>
+        <h4>For more information just</h4>
+        <h4>Contacts:</h4>
+
+        <div class="socials">
+          <span>
+            <a href="https://www.facebook.com/hnrygtrrz"><i class="ri-facebook-fill"></i></a>
+          </span>
+          <span>
+            <a href="https://x.com/hnrygtrrz"><i class="ri-twitter-fill"></i></a>
+          </span>
+          <span>
+            <a href="https://www.instagram.com/heineiriy/"><i class="ri-instagram-line"></i></a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      const scrollRevealOption = {
+        distance: "100px",
+        origin: "side",
+        duration: 1000,
+      };
+      ScrollReveal().reveal(".content h1", {
+        ...scrollRevealOption,
+      });
+      ScrollReveal().reveal(".content h4", {
+        ...scrollRevealOption,
+        delay: 500,
+      });
+      ScrollReveal().reveal(".content h2, .content h6, .content form", {
+        ...scrollRevealOption,
+        delay: 1000,
+      });
+      ScrollReveal().reveal(".content h3", {
+        ...scrollRevealOption,
+        delay: 1000,
+      });
+      ScrollReveal().reveal(".content .socials span", {
+        ...scrollRevealOption,
+        delay: 2000,
+        interval: 500,
+      });</script>
+  </body>
+</html>
